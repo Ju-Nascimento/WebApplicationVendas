@@ -7,11 +7,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplicationVendas
+namespace WebApplicationVendas.Pages.Vendas
 {
 
 
-    public partial class About
+    public partial class Vendas
     {
+
+        /// <summary>
+        /// Controle de form1.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo do Designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
     }
 }
