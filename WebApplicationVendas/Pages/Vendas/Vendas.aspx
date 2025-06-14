@@ -1,16 +1,13 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Vendas.aspx.cs" Inherits="WebApplicationVendas.Pages.Vendas.Vendas" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Vendas.aspx.cs" Inherits="WebApplicationVendas.Pages.Vendas.Vendas" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+   
+    <main class="container m-4">
+    
+    <header class="page-header">
+        <h2>Bem vindo a Tela de Vendas</h2>
+        <p>Todas as informações sobre as suas vendas estarão aqui...</p>
 
-<!DOCTYPE html>
+    </header>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
+    </main>
+</asp:Content>

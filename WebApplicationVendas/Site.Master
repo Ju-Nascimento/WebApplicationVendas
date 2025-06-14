@@ -47,9 +47,12 @@
                 </button>
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/">Página Inicial</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/About">Sobre</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contato</a></li>
+                       <li class="nav-item"> <asp:HyperLink runat="server" CssClass="nav-link" NavigateUrl="~/Pages/Clientes/Clientes.aspx">Clientes</asp:HyperLink></li>
+                        <li class="nav-item"><asp:HyperLink runat="server" CssClass="nav-link" NavigateUrl="~/Pages/Produtos/Produtos.aspx"> Produtos </asp:HyperLink></li>
+                        <li class="nav-item"><asp:HyperLink runat="server" CssClass="nav-link" NavigateUrl="~/Pages/Relatorios/Relatorios.aspx"> Relatorios </asp:HyperLink></li>
+                        <li class="nav-item"><asp:HyperLink runat="server" CssClass="nav-link" NavigateUrl="~/Pages/Vendas/Vendas.aspx"> Vendas </asp:HyperLink></li>
+                        <li class="nav-item"><asp:HyperLink runat="server" CssClass="nav-link" NavigateUrl="~/Pages/Usuarios/Usuarios.aspx"> Usuarios </asp:HyperLink></li>
+                        
                     </ul>
                 </div>
             </div>

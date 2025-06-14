@@ -7,11 +7,11 @@
 // </gerado automaticamente>
 //------------------------------------------------------------------------------
 
-namespace WebApplicationVendas.Pages.Vendas
+namespace WebApplicationVendas.Pages.Usuarios
 {
 
 
-    public partial class Vendas
+    public partial class Usuarios
     {
     }
 }

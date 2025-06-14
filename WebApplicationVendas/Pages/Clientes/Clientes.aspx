@@ -1,16 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Listar.aspx.cs" Inherits="WebApplicationVendas.Pages.Clientes.Listar" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Clientes.aspx.cs" Inherits="WebApplicationVendas.Pages.Clientes.Clientes" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <main class="container m-4">
+        <h2>Clientes</h2>
+        <p>Todas as informações sobre Clientes aqui...</p>
+    </main>
+</asp:Content>

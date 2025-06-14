@@ -123,7 +123,7 @@
     <Content Include="Pages\Clientes\Clientes.aspx" />
     <Content Include="Pages\Produtos\Produtos.aspx" />
     <Content Include="Pages\Relatorios\Relatorios.aspx" />
-    <Content Include="Pages\Usuarios\Autenticação.aspx" />
+    <Content Include="Pages\Usuarios\Usuarios.aspx" />
     <Content Include="Pages\Vendas\Vendas.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -219,12 +219,12 @@
     <Compile Include="Pages\Relatorios\Relatorios.aspx.designer.cs">
       <DependentUpon>Relatorios.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Usuarios\Autenticação.aspx.cs">
-      <DependentUpon>Autenticação.aspx</DependentUpon>
+    <Compile Include="Pages\Usuarios\Usuarios.aspx.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Usuarios\Autenticação.aspx.designer.cs">
-      <DependentUpon>Autenticação.aspx</DependentUpon>
+    <Compile Include="Pages\Usuarios\Usuarios.aspx.designer.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Vendas\Vendas.aspx.cs">
       <DependentUpon>Vendas.aspx</DependentUpon>

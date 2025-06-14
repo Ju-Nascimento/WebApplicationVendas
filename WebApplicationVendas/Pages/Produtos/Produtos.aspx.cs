@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WebApplicationVendas.Pages.Produtos
 {
-    public partial class Cadastrar : System.Web.UI.Page
+    public partial class Produtos : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

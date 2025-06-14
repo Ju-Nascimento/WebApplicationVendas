@@ -1,16 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cadastrar.aspx.cs" Inherits="WebApplicationVendas.Pages.Produtos.Cadastrar" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Produtos.aspx.cs" Inherits="WebApplicationVendas.Pages.Produtos.Produtos" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <main class ="container m-4">
+        <header class="page-header">
+            <h2>Produtos</h2>
+            <p>Todas as opções de produtos aqui...</p>
+        </header>
+    </main>
+</asp:Content>
